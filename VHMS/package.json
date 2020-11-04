@@ -1,0 +1,33 @@
+{
+  "name": "vhms",
+  "version": "1.0.0",
+  "description": "Vehicle Monitoring System",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./index.js",
+    "dev": "nodemon --exec babel-node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shalom Dauphin",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.6",
+    "pg": "^8.4.1",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1"
+  }
+}
