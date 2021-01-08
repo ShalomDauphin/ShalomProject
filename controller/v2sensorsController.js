@@ -12,7 +12,7 @@ class SensorController {
         try {
             const {
                plateNumber, SensorName, Humidity,Temperature,Heat,SensorValue,xValue,yValue,zValue,Status, Location
-            } = req.body;
+            } = req.query;
             const newObject = {
                 plateNumber, SensorName, Humidity,Temperature,Heat,SensorValue,xValue,yValue,zValue,Status, Location
             };
